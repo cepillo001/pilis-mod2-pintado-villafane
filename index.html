@@ -7,7 +7,7 @@
     <title>Feria de las Plantas</title>
     <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
-  <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> --> 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
   </head>
   <body>
     <header id="mainheader">
@@ -129,10 +129,32 @@
     <footer>
       <section id="clima">
         <div class="container">
-          
+          <div class="clima-title">
+            <h1><span class="title">Asi esta el clima en el lugar del Evento</span></h1>
+          </div>
+          <div class="clima-whatsapp">
+            <a href="https://wa.me/3884689509" target="_blank">
+              <img src="./image/whatsapp-Logo.png" alt="Contacto:" width="150px" height="100px">
+            </a>
+            <p>Contactanos:</p>
+          </div>
+          <div id="climaContent" class="clima-widget">
+            <div id="climaContentTitle" class="climaContent-title">
+              cargando...
+            </div>
+            <div id="climaContentIcon" class="climaContent-icon">
+               
+            </div>
+            <div id="climaContentTemp" class="climaContent-temp">
+              
+            </div>
+            <div id="climaContentDescription" class="climaContent-description">
+              
+            </div>
+          </div> 
         </div>
       </section>
     </footer>
-
+    <script src="./JS/main.js"></script>
   </body>
 </html>
