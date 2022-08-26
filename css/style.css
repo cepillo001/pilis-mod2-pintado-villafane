@@ -130,13 +130,95 @@ header{
 }
 
 /* Nosotros */
+#nosotros {
+    width: 100%;
+}
 
+.nosotros-img {
+    float: right;
+    width: 50%;
+    padding: 100px 0 20px 0;
+}
+
+.nosotros-img img {
+    width: 95%;
+}
+
+.nosotros-title {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nosotros-title h1 {
+    font-size: 40px;
+}
+
+.nosotros-title h2 {
+    font-size: 25px;
+}
+
+.nosotros-title p {
+    font-size: 1.25rem;
+    text-align: justify;
+}
 
 /* Registro */
+#registro {
+    width: 100%;
+    padding: 50px;
+}
 
+.registro-title {
+    float: left;
+    width: 50%;
+    padding: 0.4rem 0.7rem;
+    text-align: center;
+}
+
+.registro-form {
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-control {
+    /* inputs (cajas para el texto)*/
+    width: 100%;
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    border: none;
+}
 
 /* BotonForm */
+.btn {
+    font-size: 15px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
 
+.btn-light {
+    background: #1B4332;
+    border: 1px solid #2D6A4F;
+    color: #FFF;
+    width: 100%;
+}
+
+.btn-light:hover {
+    background: #FFF;
+    border: 1px solid #2D6A4F;
+    color: #2D6A4F;
+}
 
 /* Clima */
 
