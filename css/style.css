@@ -25,7 +25,7 @@ a {
 #navbar .icon{
     float: right;
     display: block;
-    padding: 20px 40px;
+    padding: 20px 30px;
 }
 
 #navbar .icon img{
@@ -34,6 +34,7 @@ a {
 }
 
 #navbar ul{
+    font-size: 120%;
     list-style: none;
     text-transform: uppercase;
     float: left;
@@ -57,7 +58,7 @@ a {
 
 /* Header & Container*/
 header{
-    padding: 20px;
+
     background: #1B4332;
     border-radius: 10px;
 }
@@ -93,7 +94,7 @@ footer{
 .home-title{
     float: left;
     width: 50%;
-    padding: 10px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -262,7 +263,14 @@ form .form-control {
     float: right;
     width: 30%;
     text-align: center;
+
 }
+
+.clima-whatsapp img{
+    width: 100px;
+    height: 50px;
+}
+
 
 .climaContent-title {
     width: 100%;
