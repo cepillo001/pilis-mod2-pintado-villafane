@@ -56,7 +56,7 @@ a {
 }
 
 
-/* Header & Container*/
+/* Header & Container & Footer*/
 header{
 
     background: #1B4332;
@@ -267,8 +267,8 @@ form .form-control {
 }
 
 .clima-whatsapp img{
-    width: 100px;
-    height: 50px;
+    width: 170px;
+    height: 100px;
 }
 
 
